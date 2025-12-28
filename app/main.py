@@ -13,7 +13,7 @@ PKG_JSON_PATH = Path(__file__).parent / "packages.json"
 
 @app.route("/")
 def index():
-    return "This. is a mirror for getASH"
+    return "This. is a mirror for getAPKG"
 # Serve packages.json
 @app.route("/releases/0.1/packages.json")
 def packages_json():
