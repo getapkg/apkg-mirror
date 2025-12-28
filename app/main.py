@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 
 # Base folder for releases
-RELEASES_DIR = Path(__file__).parent / "releases" / "0.1"
+RELEASES_DIR = Path(__file__).parent / "releases" / "releases"
 RELEASES_DIR.mkdir(parents=True, exist_ok=True)
 
 # Path to the static packages.json
